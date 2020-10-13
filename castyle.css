@@ -1,0 +1,143 @@
+
+@media only screen and (min-width: 800px) {
+    body{
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    
+    }    
+    .navlinks{
+    font-weight:bold;
+    padding:0 2vw 0 2vw;
+    
+}
+#navlink{
+    color:white;
+}
+ul{
+    list-style:none;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+
+
+}
+
+.container1{
+    background-image: url("images/bg.png");
+    background-repeat: none;
+    background-size:cover;
+    width: 100%;
+    height: 600px;
+}
+body a{
+    color:white;
+}
+.box{
+    display: flex;
+    margin-top:8vw;
+}
+.boxShape{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    box-shadow: -2px 3px 6px -2px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 5%;
+}
+.boxShape2{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    box-shadow: -2px 3px 6px -2px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 4%;
+
+}
+#alcheringa2020{
+    color:white;
+    margin-top:200px;
+    font-size:20vw;
+}
+}
+/*  */
+@media only screen and (max-width: 800px) {
+    body{
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    
+    }    
+    .container1{
+        background-image: url("images/bg.png");
+        background-repeat: none;
+        background-size:cover;
+        height: 400px;
+    }
+    .box{
+        display: flex;
+        margin-top:8vw;
+        flex-direction: column;
+    }
+    
+    
+    }
+    .navlinks{
+        font-weight:bold;
+        padding:0 2vw 0 2vw;
+        
+    }
+    #navlink{
+        color:white;
+    }
+    ul{
+        list-style:none;
+    }
+    body{
+        font-family: 'Raleway', sans-serif;
+        color:white;
+    
+    
+    }
+    
+    }
+    body a{
+        color:white;
+    }
+    
+    .boxShape{
+        height: 300px;
+        width: 400px;
+        background-color: white;
+        box-shadow: -2px 3px 6px -2px rgba(0,0,0,0.75);
+        border-radius: 10px;
+        padding: 5%;
+        margin-bottom:100px;
+        margin-right:auto;
+        margin-left:auto;
+        width:80%;
+    }
+    .boxShape2{
+        height: 500px;
+        width: 400px;
+        background-color: white;
+        box-shadow: -2px 3px 6px -2px rgba(0,0,0,0.75);
+        border-radius: 10px;
+        padding: 4%;
+        margin-bottom:100px;
+        margin-right:auto;
+        margin-left:auto;
+        width:85%;
+    }
+    #alcheringa2020{
+        color:white;
+        font-size:20vw;
+        margin-top:20vw;
+    }
+    #whole{
+        width:90vw;
+        margin:auto;
+    }
+  }
+
